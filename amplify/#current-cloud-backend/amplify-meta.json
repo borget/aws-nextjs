@@ -1,0 +1,29 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextjsadmin-dev-190446-authRole",
+      "UnauthRoleArn": "arn:aws:iam::613019108475:role/amplify-nextjsadmin-dev-190446-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::613019108475:role/amplify-nextjsadmin-dev-190446-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nextjsadmin-dev-190446-deployment",
+      "UnauthRoleName": "amplify-nextjsadmin-dev-190446-unauthRole",
+      "StackName": "amplify-nextjsadmin-dev-190446",
+      "StackId": "arn:aws:cloudformation:us-east-1:613019108475:stack/amplify-nextjsadmin-dev-190446/47601860-7faa-11eb-8991-122a8762896b",
+      "AmplifyAppId": "d97k8my3naa44"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-nextjsadmin-dev-190446-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2021-03-08T01:07:46.657Z",
+      "output": {},
+      "lastPushDirHash": "/+VZ33seFFqAr6wbtptwbINUfSA="
+    }
+  }
+}
